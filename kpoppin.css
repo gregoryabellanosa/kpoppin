@@ -1,0 +1,359 @@
+body {
+  background-image: url("gradient.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-repeat: no-repeat;
+  background-image: url("kpoppinlogo.png");
+  background-position: center center;
+  width: auto;
+  padding: 10px;
+  height: 150px;
+}
+
+nav {
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
+  line-height: 30px;
+  border: solid 1px #000;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+nav a {
+  display:inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+nav li:hover {
+  background-color: #000;
+  transition: .5s background-color;
+}
+
+nav a:hover {
+  color: #fff;
+  transition: .5s background-color;
+}
+
+#wrapper {
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: 900px;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+main {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#aileehero {
+  height: 350;
+  background-image: url("ailee.jpg");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+#deanhero {
+  height: 350;
+  background-image: url("dean2.jpg");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+#jphero {
+  height: 350;
+  background-image: url("jp1.jpg");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position: top;
+  background-size: cover;
+}
+
+#taeyeonhero {
+  height: 350;
+  background-image: url("taeyeon.jpg");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+#bphero {
+  height: 350;
+  background-image: url("bphero.jpg");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+}
+
+#g7hero {
+  height: 350;
+  background-image: url("g7.png");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position: center top;
+  background-size: cover;
+}
+
+#sistarhero {
+  height: 350;
+  background-image: url("sistar.jpg");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position: center top;
+  background-size: cover;
+}
+
+#baphero {
+  height: 350;
+  background-image: url("bap.jpg");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position: center top;
+  background-size: cover;
+}
+
+#apinkhero {
+  height: 350;
+  background-image: url("apink1.jpg");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position: center top;
+  background-size: cover;
+}
+
+#jbhero {
+  height: 350;
+  background-image: url("jb2.jpg");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position: center top;
+  background-size: cover;
+}
+
+#jacksonhero {
+  height: 350;
+  background-image: url("jackson.jpg");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position: center top;
+  background-size: cover;
+}
+
+#idolattr {
+  font-weight: bold;
+}
+
+#idolsocial {
+  text-decoration: none;
+  color: #b484bc;
+}
+
+#idolsocial:hover {
+  text-decoration: underline;
+}
+
+
+#tagline {
+  text-align: center;
+
+}
+
+#homedesc {
+  text-align: left;
+}
+
+#hometable {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  margin: auto;
+}
+
+#indextable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#indextable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #b484bc;
+  border: 1px solid #b484bc;
+  color: white;
+}
+
+#indextable td, #indextable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#indextable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#indextable tr:hover {
+  background-color: #ddd;
+}
+
+#indexidol {
+  text-decoration: none;
+  color: #000;
+}
+
+#indexidol:hover {
+  color: #b484bc;
+}
+
+td, th {
+  padding: 5px;
+}
+
+td a {
+  text-decoration: none;
+}
+
+.profilelink {
+  text-decoration: none;
+  color: #b484bc;
+}
+
+.profilelink:hover {
+  text-decoration: underline;
+}
+
+.groupidol:hover {
+  text-decoration: underline;
+}
+
+#homeidol {
+  border-radius: 15px;
+  text-align: center;
+}
+
+#homeidol:hover {
+  position: relative;
+  top: -10px;
+  transition: .5s background-color;
+  box-shadow: 0 -3px 18px #edf4ff;
+}
+
+#idoltitle {
+  text-align: center;
+  color: #000;
+}
+
+.profilesad {
+  text-align: center;
+}
+
+.buttonwrapper {
+  text-align: center;
+}
+
+.button {
+  background-color: #b484bc;
+  border: solid 1px #b484bc;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  border: solid 1px #b484bc;
+  background-color: #fff;
+  color: #b484bc;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#idolcategories {
+  font-family: 'Comfortaa', cursive;
+}
+
+#idolcategories tr {
+  margin: 20px;
+}
+
+#categbutton {
+  border: solid 1px #000;
+  border-radius: 4px;
+  text-align: center;
+  width: 250px;
+  height: 150px;
+  font-size: 1.5em;
+}
+
+#categbutton a {
+  display: block;
+  width: 100%;
+  color: inherit;
+}
+
+#categbutton:hover {
+  background-color: #000;
+  opacity: 80%;
+  transition: .5s background-color;
+  color: #fff;
+}
+
+#citation {
+  font-size: 80%;
+}
+
+#wikilink {
+  color: #000;
+}
+
+#wikilink:hover {
+  color: #b484bc;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-style: italic;
+  font-size: 75%;
+  font-family: 'Rubik', sans-serif;
+  font-weight: lighter;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer a:hover {
+  color: #b484bc;
+}
